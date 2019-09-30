@@ -1,8 +1,13 @@
 import React from 'react';
+import Table from './Table';
+import HeadInput from "./HeadInput";
 
 const App = () => {
     return (
-        <div>Excel App</div>
+        <div className='container'>
+            <HeadInput/>
+            <Table/>
+        </div>
     )
 };
 
